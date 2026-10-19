@@ -1,0 +1,1274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 75.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header .search {
+    width: 162px;
+    height: 36.4px;
+    border:1px solid rgb(206, 206, 206) ;
+    padding: 10px 12px;
+
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+
+.searchBox button {
+    width: 36px;
+    height: 36px;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.searchBox button .searchIcon {
+    font-size: 16px;
+    color: black;
+}
+
+.fa-bars {
+    font-size: 24px;
+}
+
+.main {
+    height: 1024px;
+}
+
+.mainImg {
+    height: 708px;
+    background-color: aqua;
+    background-image: url("img/maİN.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.mainTxtDiv {
+    width: 592px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+    padding-right: 80px;
+}
+
+.mainTxtDiv h2 {
+    font-size: 36px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+}
+
+.mainTxtDiv p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    width: 381px;
+    text-align: end;
+    line-height: 1.8;
+    color: white;
+}
+
+.mainTxtDiv a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.bottomMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cardsMain {
+    width: 358.66px;
+    height: 339.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardsMain img {
+    width: 318.66px;
+    height: 251px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardsMain h4 {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+    .main {
+        height: fit-content;
+    }
+
+    .mainTxtDiv {
+        width: fit-content;
+        align-items: center;
+        padding: 0;
+    }
+
+    .mainTxtDiv h2 {
+        font-size: 29px;
+        font-family: Ubuntu, sans-serif;
+        color: white;
+    }
+
+    .mainTxtDiv p {
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        width: fit-content;
+        text-align: end;
+        line-height: 1.8;
+        color: white;
+    }
+
+    .cardsMain h4 {
+        font-size: 14px;
+    }
+}
+
+.sectionTwo {
+    height: 368.8px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+}
+
+.sectionTwo h2 {
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: white;
+}
+
+.sectionTwo p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: left;
+    width: 1100px;
+}
+
+.sectionTwo a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+
+@media(max-width:768px) {
+    .sectionTwo {
+        height: fit-content;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 60px;
+    }
+
+    .sectionTwo p {
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        color: white;
+        line-height: 2;
+        letter-spacing: 0;
+        text-align: left;
+        width: fit-content;
+    }
+
+    .sectionTwo a {
+        font-size: 13px;
+    }
+
+    .sectionTwo h2 {
+        font-size: 25px;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        line-height: 1.1;
+        color: white;
+    }
+
+    .leftCardsMain {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+
+}
+
+.sectionThree {
+    height: 769.2px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftCardsMain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.cardOne {
+    width: 390px;
+    height: 366.2px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.cardOne img {
+    width: 251px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.cardTwo {
+    width: 390px;
+    height: 313px;
+}
+
+.cardTwo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightCardsMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardThree {
+    width: 419.7px;
+    height: 650.4px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardFour {
+    width: 404px;
+    height: 268px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 30px;
+    position: relative;
+    bottom: 120px;
+    right: 80px;
+    gap: 20px;
+
+}
+
+.cardThree img {
+    width: 419.7px;
+    height: 408px;
+    object-fit: cover;
+}
+
+.cardThree p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+.cardThree button {
+    width: 179px;
+    height: 45.6px;
+    font-size: 16px;
+    background-color: #21804d;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+}
+
+.cardFour h3 {
+    font-size: 36px;
+    font-family: "Playfair Display", sans;
+}
+
+.cardFour p {
+    font-style: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    width: 344px;
+}
+
+@media(max-width:768px) {
+
+    .sectionThree {
+        height: fit-content;
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .cardFour {
+        width: fit-content;
+        height: 268px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 30px;
+        position: static;
+        bottom: 0;
+        right: 0;
+        gap: 20px;
+    }
+
+
+    .cardOne img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cardThree p {
+        width: fit-content;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.6;
+        color: white;
+    }
+
+    .cardThree img {
+        width: 100%;
+        height: 313px;
+        object-fit: cover;
+    }
+
+    .cardThree {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .cardOne {
+        width: 390px;
+        height: 366.2px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 20px;
+    }
+
+    .cardTwo {
+        width: 390px;
+        height: 313px;
+        padding: 20px;
+    }
+}
+
+
+.sectionFour {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.scFourCard {
+    width: 380px;
+    height: 306px;
+}
+
+.scFourCard h2 {
+    font-size: 48px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.scFourCard p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+
+#scFourSpecical {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.scFourCard a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+    .scFourCard {
+        width: 380px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sectionFour {
+        height: fit-content;
+    }
+}
+
+.sectionFive {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scFiveCardOne {
+    height: 693.8px;
+    width: 397.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.scFiveCardOne .sc5Image {
+    width: 368.7px;
+    height: 468.2px;
+    object-fit: cover;
+    background-image: url("img/Natureee.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sc5Image h1 {
+    font-size: 130px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    position: relative;
+    top: 30%;
+    right: 35%;
+
+}
+
+.scFiveCardOne p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+.scFiveCardTwo {
+    width: 397.5px;
+    height: 540.8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 25px;
+    position: relative;
+    top: 80px;
+}
+
+.scFiveCardTwo svg {
+    width: 64px;
+    height: 53.45px;
+    background-color: #1a1a1a;
+}
+
+.scFiveCardTwo h3 {
+    font-size: 27px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    width: 308.7px;
+}
+
+.scFiveCardTwo p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+
+.scFiveCardTwo button {
+    width: 247.11px;
+    height: 45.6px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-image: none;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 62px 10px 61px;
+    color: white;
+    background-color: #40bcdf;
+
+}
+
+@media(max-width:768px) {
+    .sectionFive {
+        height: fit-content;
+        gap: 0;
+        padding: 60px;
+    }
+
+    .scFiveCardTwo {
+        top: 0;
+    }
+
+    .sc5Image h1 {
+        position: static;
+        font-size: 85px;
+    }
+
+    .sc5Image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scFiveCardOne {
+        height: 693.8px;
+        width: 397.5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .scFiveCardTwo {
+        padding: 15px;
+    }
+}
+
+.sectionSix {
+    background-color: #e0e5eb;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sectionSix h2 {
+    font-size: 36px;
+    font-family: "PlayFair Display", serif;
+}
+
+.sc6Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scSixCard {
+    width: 386.66px;
+    height: 566.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+}
+
+.scSixCard img {
+    width: 367.46px;
+    height: 416px;
+    object-fit: cover;
+}
+
+.sc6Cards p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 1.6;
+    width: 327.46px;
+}
+
+
+@media(max-width:768px) {
+    .sectionSix {
+        height: fit-content;
+        padding: 20px;
+    }
+}
+
+.sectionSeven {
+    height: 373px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px
+}
+
+.sectionSeven h2 {
+    font-size: 36px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    letter-spacing: normal;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.sectionSeven h4 {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    width: 1140px;
+    color: white;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.sectionSeven a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+@media(max-width:768px) {
+    .sectionSeven {
+        height: fit-content;
+        padding: 30px;
+    }
+
+    .sectionSeven h4 {
+        width: fit-content;
+    }
+}
+
+.sectionEight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sc8Left {
+    height: 889.2px;
+    width: 586px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.sc8Left img {
+    width: 554px;
+    height: 565px;
+    object-fit: cover;
+}
+
+.sc8Left h1 {
+    font-size: 130px;
+    font-family: Ubuntu, sans-serif;
+
+}
+
+.sc8right {
+    height: 889.2px;
+    width: 586px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.sc8right h2 {
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.sc8right p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.sc8right a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    color: #40bcdf;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sc8right img {
+    width: 554px;
+    height: 565px;
+    object-fit: cover;
+}
+
+.sc8BottomMain {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    bottom: 87px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.threeImg {
+    width: 185.53px;
+    height: 186.2px;
+    background-color: #21804d;
+}
+
+.threeImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc8right img {
+    width: 340px;
+    height: 324px;
+    object-fit: cover;
+}
+
+@media(max-width:768px) {
+    .sc8BottomMain {
+        display: flex;
+        position: static;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .sc8Left img {
+        width: 340px;
+        height: 324px;
+        object-fit: cover;
+    }
+
+    .sc8Left h1 {
+        font-size: 75px;
+        font-family: Ubuntu, sans-serif;
+    }
+
+    .sc8Left {
+        height: fit-content;
+        width: 586px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+        flex-wrap: wrap;
+    }
+
+    .sc8right {
+        height: fit-content;
+        width: 586px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: static;
+        top: 30px;
+        align-items: center;
+    }
+
+    .sc8right h2 {
+        font-size: 25px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .sc8right p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .threeImg {
+        width: 340px;
+        height: 324px;
+        background-color: #21804d;
+    }
+
+    .sectionEight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .cardOne {
+        width: 100%;
+        height: 366.2px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 20px;
+    }
+
+    .cardTwo {
+        width: 100%;
+        height: 313px;
+        padding: 20px;
+    }
+
+    .scFiveCardOne {
+        height: 693.8px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .scSixCard {
+        width: 100%;
+        height: 566.4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        background-color: white;
+    }
+
+
+}
+
+.sectionNine {
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.sc9TopMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topLeft {
+    width: 570px;
+    height: 385.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topRight {
+    width: 570px;
+    height: 385.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topRight form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topLeft h2 {
+    font-size: 48px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+}
+
+.topLeft i {
+    color: white;
+    font-size: 48px;
+}
+
+.topLeft p {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.topLeft h4 {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: 700;
+    width: 121.25px;
+    line-height: 1.6;
+}
+
+.topInputt {
+    width: 100%;
+    height: 47.2px;
+    padding: 10px 12px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+}
+
+
+.topRight textarea {
+    height: 124px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    border-radius: 0;
+    padding: 10px 12px;
+}
+
+.topRight .Submitt {
+    width: 117px;
+    height: 45.6px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    border-style: none;
+    background-image: none;
+}
+
+.sc9BottomMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sc9BottomMain .sc9BottomCard {
+    width: 285px;
+    height: 345px;
+}
+
+.sc9BottomCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sc9BottomCard {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sc9BottomCard h3 {
+    font-size: 36px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+    width: 245px;
+}
+
+.sc9BottomCard p {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    color: white;
+    width: 245px;
+}
+
+.sc9BottomCard a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+@media(max-width:768px) {
+
+    .scFiveCardOne p {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.6;
+        color: white;
+    }
+
+    .sectionFive {
+        height: fit-content;
+        gap: 0;
+        padding: 0px;
+    }
+
+    .scFiveCardOne .sc5Image {
+        width: 358.65px;
+        height: 468.2px;
+        object-fit: cover;
+        background-image: url(img/Natureee.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .scFiveCardOne {
+        height: 693.8px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .sectionTwo {
+        height: fit-content;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .cardOne {
+        width: 100%;
+        height: 366.2px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 10px;
+    }
+
+    .cardTwo {
+        width: 100%;
+        height: 313px;
+        padding: 10px;
+    }
+
+    .cardThree {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .cardFour {
+        width: fit-content;
+        height: 268px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 10px;
+        position: static;
+        bottom: 0;
+        right: 0;
+        gap: 20px;
+    }
+
+    .scFourCard {
+        width: 380px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .sectionSix {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .sectionSeven {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .sectionEight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .sc8Left img {
+        width: 367.45px;
+        height: 324px;
+        object-fit: cover;
+    }
+
+    .sc8right img {
+        width: 367.45px;
+        height: 324px;
+        object-fit: cover;
+    }
+
+    .threeImg img {
+        width: 367.45px;
+        height: 324px;
+        object-fit: cover;
+    }
+
+    .threeImg {
+        width: 367.45px;
+        height: 324px;
+        background-color: #21804d;
+    }
+
+    .sectionNine {
+        background-color: #1a1a1a;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .sc9BottomMain .sc9BottomCard {
+        width: 367.45px;
+        height: 345px;
+    }
+
+    .sc9BottomMain .sc9BottomCard {
+        width: 367.45px;
+        height: 236px;
+    }
+
+    .scFiveCardOne p {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.6;
+        color: white;
+        padding: 10px;
+    }
+
+    .mainTxtDiv p {
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        width: fit-content;
+        text-align: end;
+        line-height: 1.8;
+        color: white;
+        padding: 10px;
+    }
+
+    .mainTxtDiv h2 {
+        font-size: 29px;
+        font-family: Ubuntu, sans-serif;
+        color: white;
+        padding: 10px;
+    }
+
+}
